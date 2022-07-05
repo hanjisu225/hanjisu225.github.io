@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>페이스북 회원가입 페이지</title>
+</head>
+<body>
+	<h1>facebook</h1>
+	<form>
+		<fieldset id="all">
+			<h3>새 계정 만들기</h3>
+			<h5>빠르고 쉽습니다.</h5>
+			<hr>
+			<input type="text" id="name" placeholder="성(姓)">
+			<input type="text" id="name" placeholder="이름(성은 제외)">
+			<br><br>
+			<input type="text" id="num" placeholder="휴대폰 번호 또는 이메일">
+			<br><br>
+			<input type="password" id="num" placeholder="새 비밀번호">
+			<br>
+
+			<h4>생일</h4>
+			<input type="number" id="day" value="2022">
+			<input type="number" id="day" min="1" max="12" value="1">
+			<input type="number" id="day" min="1" max="31" value="1">
+			<br>
+
+			<h4>성별</h4>
+			<fieldset id="mg">
+				<label for="fm">여성</label>
+				<input type="radio" id="fm">
+			</fieldset>
+			<fieldset id="mg">
+				<label for="m">남성</label>
+				<input type="radio" id="m">
+			</fieldset>
+			<fieldset id="mg">
+				<label for="p">개인 지정</label>
+				<input type="radio" id="p">
+			</fieldset>
+			<br><br>
+
+			<P>서비스를 이용하는 사람이 회원님의 연락처 정보를 Facebook에 업로드했을 수도 있습니다.<a href="https://www.facebook.com/campaign/help/637205020878504">더 알아보기</a></P>
+			<p>가입하기 버튼을 클릭하면 Facebook의 약관, 데이터 정책 및 쿠키 정책에 동의하게 됩니다. Facebook으로부터 SMS 알림을 받을 수 있으며 알림은 언제든지 옵트 아웃할 수 있습니다.</p>
+
+			<input type="submit" id="sub" value="가입하기">
+			<br>
+			<a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU2OTk1Mzc3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">이미 계정이 있으신가요?</a>
+		</fieldset>
+	</form>
+</html>
